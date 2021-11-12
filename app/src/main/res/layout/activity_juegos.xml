@@ -51,7 +51,7 @@
                 android:layout_width="287dp"
                 android:layout_height="89dp"
                 android:layout_marginTop="12dp"
-                android:text="Nuestra aplicacion PS, se encarga de informar los diferentes precios que tienes a disposicion para tu Play Station, de esta manera ¡puedes revisar cual es el precio de tu juego favorito!         "
+                android:text="Nuestra aplicacion PS, se encarga de informar los diferentes precios que tienes a disposicion para tu PlayStation, de esta manera ¡puedes revisar cual es el precio de tu juego favorito!         "
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
