@@ -97,6 +97,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/transparent"
+                    android:onClick="Maps"
                     app:srcCompat="@drawable/mapa"
                     tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
             </LinearLayout>

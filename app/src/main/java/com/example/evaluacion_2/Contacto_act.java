@@ -25,5 +25,10 @@ public class Contacto_act extends AppCompatActivity {
         i.setData(Uri.parse("tel:"+"963166854"));//marcado.
         startActivity(i);//inicia marcado
     }
+    public void Maps(View view)
+    {
+        Intent i = new Intent(this,MapsActivity.class);
+        startActivity(i);
+    }
 
 }
