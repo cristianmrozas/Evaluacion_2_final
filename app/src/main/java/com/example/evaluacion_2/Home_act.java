@@ -15,13 +15,14 @@ import Objetos.Juegos;
 public class Home_act extends AppCompatActivity {
     private Juegos ju = new Juegos();
     private VideoView videoview;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        videoview=findViewById(R.id.vw);
+        videoview = findViewById(R.id.vw);
         //obtener la ruta
-        String ruta= "android.resource://" + getPackageName() + "/"+ R.raw.video;
+        String ruta = "android.resource://" + getPackageName() + "/" + R.raw.video;
         Uri uri = Uri.parse(ruta);//parseo la ruta.
 
         videoview.setVideoURI(uri);
@@ -29,11 +30,10 @@ public class Home_act extends AppCompatActivity {
         videoview.start();
 
         //MediaController media= new MediaController(this);
-       // videoview.setMediaController(media);
+        // videoview.setMediaController(media);
     }
 
-    public void juegos(View view)
-    {
+    public void juegos(View view) {
         Intent i = new Intent(getBaseContext(), Juegos_act.class);
         Bundle bun = new Bundle();//necesario para enviar arreglos.
         bun.putStringArray("Juegos", ju.getJuegos());
@@ -41,13 +41,21 @@ public class Home_act extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void salir(View view){
-        Intent i = new Intent(getBaseContext(),MainActivity.class);
+    public void salir(View view) {
+        Intent i = new Intent(getBaseContext(), MainActivity.class);
         startActivity(i);
     }
-    public void Contacto(View view)
-    {
+
+    public void Contacto(View view) {
         Intent i = new Intent(getBaseContext(), Contacto_act.class);
         startActivity(i);
     }
+
+    public void Clases(View view)
+    {
+        Intent i = new Intent(getBaseContext(), Clases_Activity.class);
+        startActivity(i);
+    }
+
+
 }

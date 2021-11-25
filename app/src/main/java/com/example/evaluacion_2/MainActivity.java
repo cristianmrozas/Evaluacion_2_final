@@ -2,6 +2,7 @@ package com.example.evaluacion_2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
@@ -146,6 +147,11 @@ public class MainActivity extends AppCompatActivity {
         Intent i= new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse("https://twitter.com/PlayStation_LA?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"));
         startActivity(i);
+    }
+
+    public void Salir(View view)
+    {
+        finish();
     }
     
 }

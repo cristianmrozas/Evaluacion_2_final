@@ -3,12 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/56963/Desktop/programacionandroid/Evaluacion_2/app/src/main/res/drawable/gradient_background.xml" value="0.2703125" />
-        <entry key="..\:/Users/56963/Desktop/programacionandroid/Evaluacion_2/app/src/main/res/layout/activity_contacto.xml" value="0.264" />
-        <entry key="..\:/Users/56963/Desktop/programacionandroid/Evaluacion_2/app/src/main/res/layout/activity_home.xml" value="0.4" />
-        <entry key="..\:/Users/56963/Desktop/programacionandroid/Evaluacion_2/app/src/main/res/layout/activity_juegos.xml" value="0.34916201117318435" />
-        <entry key="..\:/Users/56963/Desktop/programacionandroid/Evaluacion_2/app/src/main/res/layout/activity_main.xml" value="0.4" />
-        <entry key="..\:/Users/56963/Desktop/programacionandroid/Evaluacion_2/app/src/main/res/layout/activity_maps.xml" value="0.4" />
+        <entry key="..\:/Users/crist/OneDrive/Escritorio/Evaluacion_2/app/src/main/res/layout/activity_clases.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/crist/OneDrive/Escritorio/Evaluacion_2/app/src/main/res/layout/activity_contacto.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/crist/OneDrive/Escritorio/Evaluacion_2/app/src/main/res/layout/activity_home.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/crist/OneDrive/Escritorio/Evaluacion_2/app/src/main/res/layout/activity_juegos.xml" value="0.264" />
+        <entry key="..\:/Users/crist/OneDrive/Escritorio/Evaluacion_2/app/src/main/res/layout/activity_main.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/crist/OneDrive/Escritorio/Evaluacion_2/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
